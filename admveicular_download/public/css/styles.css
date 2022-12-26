@@ -1,0 +1,184 @@
+/* GENERAL */
+* {
+    font-family: "Roboto";
+}
+
+body {
+    min-height: 100vhj;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #f2a340;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover {
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #f2a340;
+}
+/*NAVBAR*/
+#navbar img {
+    width: 100px;
+}
+#navbar {
+    justify-content: left;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #f2a340;
+}
+
+#navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* SEARCH CONTAINER */
+#search-container {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #f2a340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: auto;
+}
+
+/*VEICULOS CONTAINER*/
+#veiculo-container {
+    padding: 50px;
+}
+
+#veiculo-container h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #f2a340;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#veiculo-container .card {
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title {
+    font-size: 20px;
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-info {
+    font-size: 16px;
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/*Veiculo create page*/
+#veiculo-create-container {
+    padding: 30px;
+}
+#veiculo-create-container div {
+    margin-bottom: 10px;
+}
+#veiculo-create-container h1 {
+    color: #f2a340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#veiculo-create-container label {
+    font-weight: bold;
+    color: #f2a340;
+}
+#veiculo-create-container input,
+#veiculo-create-container textarea,
+#veiculo-create-container select {
+    font-size: 12px;
+}
+/*DASHBOARD*/
+.dashboard-title-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dashboard-veiculos-container th {
+    width: 25%;
+}
+
+.dashboard-veiculos-container form {
+    display: inline-block;
+}
+/*FOOTER*/
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
